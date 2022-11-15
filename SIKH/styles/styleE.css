@@ -1,0 +1,139 @@
+@import url("layout.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/67/ae/80/cortile-interno.jpg?w=1200&h=1200&s=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#masthead {
+    background-color: #0b0235;
+    overflow: auto;
+}  
+
+#masterhead h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#masterhead p {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#sidebar {
+    display:inline-block;
+    gap: 50px;
+    padding-left: 8%;
+}
+
+#sidebar ul {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    padding: auto; 
+    display: contents;
+}
+
+
+#sidebar li {
+    font-size: 1.1em;
+    display: inline-table;
+    margin: 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent; 
+    /* gap: 10px; */
+}
+
+
+#sidebar a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(255, 204, 0);
+    display: inline-block;
+    padding: 16px;
+    gap: 55px;
+}
+
+#sidebar a:hover {
+    font-weight: xx-large;
+    font-size: xx-large;
+    text-decoration: none !important;
+    background-color: transparent;
+    color: rgba(69, 5, 246, 0.766);
+}
+
+#content h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    text-decoration: solid;
+    color: rgb(250, 5, 5);
+}
+
+table th {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+table td {
+    font-weight: bold;
+}
+
+
+#footer {
+    text-align: center;
+    clear: both;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    overflow: auto;
+    background-color: #060c32;
+    font-size: larger;
+}
+
+#footer p {
+    font-size: 1em;
+    color: #fff;
+    margin: 2px;
+    padding: 2px;
+}
+
+#footer a {
+    color: #fff;
+    /* text-decoration: underline; */
+    text-decoration: none !important;
+}
+
+#footer a:hover {
+    color: rgb(246, 142, 5);
+    font-weight: bolder;
+    text-decoration: none !important;
+    cursor: pointer;
+    /* border-bottom: 1px solid #f2f2f2; */
+}
+
+
+.style_bold {
+    font-weight: bolder;
+}
+
+.style_italic {
+    font-style: italic;
+}

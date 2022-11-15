@@ -1,0 +1,234 @@
+@import url("layout.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    /* box-sizing: border-box; */
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+    /* width: 800px; */
+    padding-left: auto;
+    padding-right: auto;
+    /* top:0;
+    bottom:0;
+    left:0;
+    right:0; */
+    background-image: url(https://jktourism.jk.gov.in/UploadImagesContent/Images/a62bdbedfb2a442da1f14f9b8cb67929guru%20nanak%20gurudwara3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-color: rgb(249, 153, 10); */
+}
+
+#container {
+    /* width: 646px; */
+    margin: 0 auto;
+    /* background-image: url("../images/msfp_smbus2_01.gif"); */
+    /* background-repeat: repeat-y; */
+    background-attachment: scroll;
+    height: 1%;
+    width: 100vw;
+    /* min-height: 100vh;
+    display: flex;
+    flex-direction: column; */
+    
+}
+
+#masthead {
+    /* width: 626px; */
+    /* margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 10px; */
+    overflow: auto;
+    background-color: #03082b;
+    width: 100vw;
+    /*height: 100vh; */
+    
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    background-color: #d3d3d3;
+    position: relative;
+    clear: both;
+    /* margin-left: 10px; */
+    display: inline;
+    /* margin-bottom: -200px; */
+}
+
+#content {
+    border-style: groove none none none;
+    /* float: right; */
+    /* width: 456px; */
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    /* background-color: #fff; */
+    position: relative;
+    border-right-width: thick;
+    
+}
+
+#cont {
+    margin-top: 50%;
+    color: rgb(17, 17, 17); 
+    font-weight: 700;
+}
+
+/* #content h2{
+    color: rgb(242, 10, 41);
+     font-size: x-large; 
+    text-align: auto;
+     margin-top: 50px;
+
+}
+*/
+ /* p {
+    color: rgb(0, 8, 255);
+    font-size: x-large; 
+    text-align:top;
+    text-decoration: solid;
+    color: #fc0404;
+    
+}  */
+
+#footer {
+    /* background-color: red; */
+    text-align: center;
+    clear: both;
+    position: fixed;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    overflow: auto;
+    background-color: #060c32;
+    font-size: larger;
+    bottom: 0%;
+    margin-top: auto;
+    /* width: 626px; */
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    /* padding: 10px; */
+}
+
+
+#masthead h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#masthead p {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* image */
+
+/* #content img {
+    padding: auto;
+    margin-top: 50px;
+} */
+
+button {
+    background-color: #118;
+    color: white;
+    /* display: inline-block; */
+    padding: 0.75em 1.5em;
+    border-radius: inherit;
+    /* float:right; */
+    margin-bottom: 25%;
+    margin-left: 76%;
+    transition: all;
+    border-radius: 12px;
+    font-size: large;
+}
+
+button:hover {
+    
+    background-color: rgb(246, 164, 13);
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: bolder;
+
+}
+
+
+/* Styles for Navigation */
+
+#sidebar ul {
+    /* list-style-type: none; */
+    list-style: none;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* text-align: right; */
+}
+
+#sidebar li {
+    font-size: 1.1em;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 10px solid #d3d3d3;
+    /* display: inline-block;
+    margin-left: 30px;*/
+    cursor: pointer; 
+}
+
+#sidebar a {
+    font-weight: 800;
+    text-decoration: none;
+    color: #118;
+    display: block;
+    padding: 16px;
+    border-bottom: 4px solid #faf9f7;
+}
+
+#sidebar a:hover {
+    font-weight: bolder;
+    text-decoration: none !important;
+    color: rgba(246, 142, 5, 0.766);
+    /* border-bottom: 1px solid #f2f2f2; */
+    /* background-color: #f7cf08; */
+}
+
+
+/* Styles for Footer */
+
+#footer p {
+    font-size: 1em;
+    color: #fff;
+    margin: 2px;
+    padding: 2px;
+}
+
+#footer a {
+    color: #fff;
+    /* text-decoration: underline; */
+    text-decoration: none !important;
+}
+
+#footer a:hover {
+    color: rgb(246, 142, 5);
+    font-weight: bolder;
+    text-decoration: none !important;
+    cursor: pointer;
+    /* border-bottom: 1px solid #f2f2f2; */
+}
+
+.style_bold {
+    font-weight: bolder;
+}
+
+.style_italic {
+    font-style: italic;
+}

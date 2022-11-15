@@ -1,0 +1,5 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-05-13 05:48:46
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
+2017-05-13 05:48:46 118.67.248.123 GET / - 80 - 196.52.43.56 - 200 0 0 1184
